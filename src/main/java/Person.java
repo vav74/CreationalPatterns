@@ -95,7 +95,7 @@ public class Person {
 
     public PersonBuilder newChildBuilder() {
         return new PersonBuilder()
-        .setSurname(this.getSurname())
-        .setAddress(this.getAddress());
+                .setSurname(this.getSurname())
+                .setAddress(this.getAddress());
     }
 }
